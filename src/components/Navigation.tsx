@@ -25,7 +25,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="text-xl font-bold neon-glow">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Portfolio
+              MK
             </span>
           </Link>
 

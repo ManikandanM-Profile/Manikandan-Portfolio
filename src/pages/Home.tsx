@@ -13,9 +13,9 @@ const Home = () => {
 
       {/* Hero Content */}
       <div className="text-center z-10 animate-slide-up px-4">
-        <h1 className="text-6xl md:text-8xl font-bold mb-4">
+        <h1 className="text-6xl md:text-6xl font-bold mb-4">
           <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent animate-cyber-flicker">
-            Alex Johnson
+            Manikandan
           </span>
         </h1>
         
@@ -44,11 +44,6 @@ const Home = () => {
             </Link>
           </Button>
         </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ChevronDown className="h-6 w-6 text-primary" />
       </div>
     </div>
   );
