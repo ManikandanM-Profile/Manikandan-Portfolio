@@ -5,34 +5,27 @@ import { CalendarDays, MapPin, GraduationCap, Briefcase } from "lucide-react";
 const About = () => {
   const experiences = [
     {
-      title: "Senior Java Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
-      description: "Leading development of microservices architecture using Spring Boot and React.",
+      title: "Java Developer",
+      company: "Integra Global Solutions",
+      period: "2023 - 2025",
+      location: "Coimbatore, India",
+      description: "Web application development with a microservices architecture using Struts and Hibernate.",
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations",
-      period: "2020 - 2022",
-      location: "Austin, TX",
-      description: "Developed and maintained web applications using Java, Spring, and Angular.",
-    },
-    {
-      title: "Junior Developer",
-      company: "StartupTech",
-      period: "2019 - 2020",
-      location: "Denver, CO",
-      description: "Built REST APIs and contributed to front-end development using React.",
+      title: "Junior Java Developer",
+      company: "Integra Global Solutions",
+      period: "2022 - 2023",
+      location: "Coimbatore, India",
+      description: "Developed and maintained web applications using Java, Struts and Hibernate.",
     },
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
-      period: "2015 - 2019",
-      location: "California, USA",
+      degree: "Bachelor of Technology in Information Technology",
+      institution: "Rathinam Technical Campus",
+      period: "2016 - 2020",
+      location: "Coimbatore, India",
     },
   ];
 
