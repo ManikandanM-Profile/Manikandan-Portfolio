@@ -10,10 +10,8 @@ const Skills = () => {
       title: "Frontend Development",
       color: "from-blue-500 to-cyan-500",
       skills: [
-        { name: "React", level: 90 },
-        { name: "Angular", level: 85 },
-        { name: "TypeScript", level: 88 },
-        { name: "JavaScript (ES6+)", level: 92 },
+        { name: "JavaScript", level: 90 },
+        { name: "jQuery", level: 90 },
         { name: "HTML5/CSS3", level: 95 },
         { name: "Bootstrap", level: 90 },
       ],
@@ -23,12 +21,12 @@ const Skills = () => {
       title: "Backend Development",
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "Java", level: 95 },
-        { name: "Spring Boot", level: 92 },
-        { name: "Spring Security", level: 88 },
-        { name: "Hibernate/JPA", level: 90 },
-        { name: "REST APIs", level: 93 },
-        { name: "Microservices", level: 85 },
+        { name: "Java", level: 80 },
+        { name: "Struts", level: 75 },
+        { name: "Spring Boot", level: 70 },
+        { name: "Hibernate", level: 75 },
+        { name: "REST APIs", level: 70 },
+        { name: "Microservices", level: 80 },
       ],
     },
     {
@@ -36,25 +34,8 @@ const Skills = () => {
       title: "Database & Storage",
       color: "from-purple-500 to-pink-500",
       skills: [
-        { name: "PostgreSQL", level: 90 },
-        { name: "MySQL", level: 88 },
-        { name: "MongoDB", level: 82 },
-        { name: "Redis", level: 80 },
-        { name: "Elasticsearch", level: 75 },
-        { name: "SQL Optimization", level: 85 },
-      ],
-    },
-    {
-      icon: <Cloud className="h-6 w-6" />,
-      title: "Cloud & DevOps",
-      color: "from-orange-500 to-red-500",
-      skills: [
-        { name: "AWS", level: 85 },
-        { name: "Docker", level: 90 },
-        { name: "Kubernetes", level: 78 },
-        { name: "Jenkins", level: 82 },
-        { name: "Git/GitHub", level: 95 },
-        { name: "CI/CD", level: 85 },
+        { name: "MySQL", level: 80 },
+        { name: "AWS", level: 70 },
       ],
     },
     {
@@ -62,34 +43,13 @@ const Skills = () => {
       title: "Tools & Methodologies",
       color: "from-indigo-500 to-purple-500",
       skills: [
-        { name: "Agile/Scrum", level: 90 },
-        { name: "Test-Driven Development", level: 85 },
-        { name: "Maven/Gradle", level: 88 },
-        { name: "IntelliJ IDEA", level: 95 },
-        { name: "Postman", level: 90 },
-        { name: "Jira", level: 85 },
+        { name: "Agile", level: 80 },
+        { name: "MVC Architecture", level: 90 },
+        { name: "Maven", level: 88 },
+        { name: "Eclipse IDE", level: 90 },
+        { name: "Postman", level: 70 },
       ],
     },
-    {
-      icon: <Smartphone className="h-6 w-6" />,
-      title: "Additional Technologies",
-      color: "from-cyan-500 to-blue-500",
-      skills: [
-        { name: "React Native", level: 75 },
-        { name: "GraphQL", level: 70 },
-        { name: "Apache Kafka", level: 72 },
-        { name: "Selenium", level: 80 },
-        { name: "JUnit/Mockito", level: 88 },
-        { name: "SonarQube", level: 75 },
-      ],
-    },
-  ];
-
-  const certifications = [
-    "Oracle Certified Professional: Java SE Developer",
-    "AWS Certified Developer - Associate",
-    "Certified Scrum Master (CSM)",
-    "Spring Professional Certification",
   ];
 
   return (
@@ -142,27 +102,6 @@ const Skills = () => {
             ))}
           </div>
 
-          {/* Certifications */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Certifications
-              </span>
-            </h2>
-            <Card className="project-card">
-              <CardContent className="p-8">
-                <div className="grid md:grid-cols-2 gap-4">
-                  {certifications.map((cert, index) => (
-                    <div key={index} className="flex items-center gap-3 p-4 rounded-lg bg-muted/30">
-                      <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="font-medium">{cert}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
           {/* Technology Stack Overview */}
           <div>
             <h2 className="text-3xl font-bold mb-8 text-center">
@@ -176,10 +115,11 @@ const Skills = () => {
                   <CardTitle className="text-primary">Frontend</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-3">
-                    <Badge className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white">React</Badge>
-                    <Badge className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">TypeScript</Badge>
-                    <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">Tailwind CSS</Badge>
+                  <div className="space-x-1">
+                    <Badge className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white">JavaScript</Badge>
+                    <Badge className="bg-gradient-to-r from-pink-500 to-emerald-500 text-white">jQuery</Badge>
+                    <Badge className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">HTML</Badge>
+                    <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">CSS</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -189,23 +129,24 @@ const Skills = () => {
                   <CardTitle className="text-primary">Backend</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-3">
-                    <Badge className="bg-gradient-to-r from-orange-500 to-red-500 text-white">Java</Badge>
-                    <Badge className="bg-gradient-to-r from-green-500 to-emerald-500 text-white">Spring Boot</Badge>
-                    <Badge className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">PostgreSQL</Badge>
+                  <div className="space-x-1">
+                    <Badge className="bg-gradient-to-r from-orange-500 to-yellow-500 text-white">Java</Badge>
+                    <Badge className="bg-gradient-to-r from-gray-600 to-gray-800 text-white">Struts</Badge>
+                    <Badge className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">Hibernate</Badge>
+                    <Badge className="bg-gradient-to-r from-blue-500 to-emerald-500 text-white">Spring Boot</Badge>
                   </div>
                 </CardContent>
               </Card>
 
               <Card className="project-card text-center">
                 <CardHeader>
-                  <CardTitle className="text-primary">DevOps</CardTitle>
+                  <CardTitle className="text-primary">Database</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-3">
-                    <Badge className="bg-gradient-to-r from-blue-400 to-blue-600 text-white">Docker</Badge>
+                  <div className="space-x-1">
+                    <Badge className="bg-gradient-to-r from-blue-400 to-blue-600 text-white">GitBucket</Badge>
                     <Badge className="bg-gradient-to-r from-orange-400 to-orange-600 text-white">AWS</Badge>
-                    <Badge className="bg-gradient-to-r from-gray-600 to-gray-800 text-white">Jenkins</Badge>
+                    <Badge className="bg-gradient-to-r from-purple-500 to-pink-500 text-white">MySQL</Badge>
                   </div>
                 </CardContent>
               </Card>

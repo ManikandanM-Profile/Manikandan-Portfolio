@@ -19,21 +19,21 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "alex.johnson@email.com",
+      value: "manikandan.btech2020@gmail.com",
       action: "copy",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: <Phone className="h-6 w-6" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 (908) 051-5896",
       action: "copy",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Coimbatore, India",
       action: "none",
       color: "from-purple-500 to-pink-500",
     },
@@ -43,19 +43,19 @@ const Contact = () => {
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/alexjohnson",
+      url: "https://linkedin.com/in/manikandan-m-294a1b183",
       color: "from-blue-600 to-blue-800",
     },
     {
       icon: <Github className="h-6 w-6" />,
       label: "GitHub",
-      url: "https://github.com/alexjohnson",
+      url: "https://github.com/ManikandanM-Profile",
       color: "from-gray-600 to-gray-800",
     },
     {
       icon: <Instagram className="h-6 w-6" />,
       label: "Instagram",
-      url: "https://instagram.com/alexjohnson",
+      url: "https://instagram.com/_romantic_killer_",
       color: "from-pink-500 to-purple-600",
     },
   ];
@@ -144,7 +144,6 @@ const Contact = () => {
                         className="flex items-center gap-2"
                       >
                         {social.icon}
-                        <ExternalLink className="h-4 w-4" />
                       </a>
                     </Button>
                   ))}
