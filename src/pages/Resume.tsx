@@ -102,31 +102,28 @@ const Resume = () => {
                   <div>
                     <h4 className="font-semibold mb-2">Backend Technologies</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Java 17</Badge>
+                      <Badge variant="secondary">Java 8</Badge>
+                      <Badge variant="secondary">Struts</Badge>
                       <Badge variant="secondary">Spring Boot</Badge>
                       <Badge variant="secondary">Hibernate</Badge>
-                      <Badge variant="secondary">REST APIs</Badge>
                       <Badge variant="secondary">Microservices</Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Frontend Technologies</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">React</Badge>
-                      <Badge variant="outline">TypeScript</Badge>
-                      <Badge variant="outline">Angular</Badge>
-                      <Badge variant="outline">HTML5/CSS3</Badge>
-                      <Badge variant="outline">Bootstrap</Badge>
+                      <Badge variant="destructive">JavaScript</Badge>
+                      <Badge variant="destructive">HTML/CSS</Badge>
+                      <Badge variant="destructive">Bootstrap</Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Tools & Platforms</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge>Docker</Badge>
-                      <Badge>Kubernetes</Badge>
-                      <Badge>Jenkins</Badge>
+                      <Badge>Eclipse IDE</Badge>
+                      <Badge>MySQL WorkBench</Badge>
+                      <Badge>Visual Studio Code</Badge>
                       <Badge>Git</Badge>
-                      <Badge>AWS</Badge>
                     </div>
                   </div>
                 </div>
@@ -140,27 +137,27 @@ const Resume = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="border-l-2 border-primary pl-4">
-                    <h4 className="font-semibold">Enterprise Application Development</h4>
+                    <h4 className="font-semibold">Application Development</h4>
                     <p className="text-sm text-muted-foreground">
-                      5+ years building scalable enterprise applications serving 100K+ users
+                      3+ years building scalable enterprise applications serving 100K+ users.
                     </p>
                   </div>
                   <div className="border-l-2 border-accent pl-4">
                     <h4 className="font-semibold">Agile Leadership</h4>
                     <p className="text-sm text-muted-foreground">
-                      Led cross-functional teams using Scrum and Kanban methodologies
+                      Led cross-functional Agile teams of developers, testers, and designers, driving sprint planning, daily stand-ups, and retrospectives, which resulted in a 25% faster delivery cycle and improved collaboration.
                     </p>
                   </div>
                   <div className="border-l-2 border-secondary pl-4">
-                    <h4 className="font-semibold">DevOps Integration</h4>
+                    <h4 className="font-semibold">Team Collaboration</h4>
                     <p className="text-sm text-muted-foreground">
-                      Implemented CI/CD pipelines and automated testing frameworks
+                      Worked with cross-functional teams (UI/UX, QA, DevOps).
                     </p>
                   </div>
                   <div className="border-l-2 border-primary pl-4">
-                    <h4 className="font-semibold">Mentorship</h4>
+                    <h4 className="font-semibold">Problem-Solving</h4>
                     <p className="text-sm text-muted-foreground">
-                      Mentored 10+ junior developers and conducted technical interviews
+                      Tackled critical bugs, optimized code, or improved system performance.
                     </p>
                   </div>
                 </div>
