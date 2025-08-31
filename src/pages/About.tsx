@@ -75,15 +75,15 @@ const About = () => {
                   <div className="space-y-4 text-muted-foreground leading-relaxed">
                     <p>
                       I'm a passionate Java Developer with 3+ years of experience in designing, developing, and deploying scalable web applications and microservices.
-                      Proficient in Java frameworks such as Spring Boot, Struts, Hibernate, and REST API development,
-                      with a strong foundation in frontend technologies including JavaScript, HTML, CSS, and Bootstrap.
+                      Proficient in Java frameworks such as Spring Boot, Struts, Hibernate, and REST API development
+                      with a strong foundation in frontend technologies including JavaScript, HTML, CSS and Bootstrap.
                     </p>
                     <p>
-                       Skilled in end-to-end software development lifecycle (SDLC), from requirement gathering and system design to implementation, testing, and deployment.
-                       Adept at writing clean, maintainable, and test-driven code, with a focus on performance, security, and user-centric solutions.
+                       Skilled in end-to-end software development lifecycle (SDLC), from requirement gathering and system design to implementation, testing and deployment.
+                       Adept at writing clean, maintainable, and test-driven code, with a focus on performance, security and user-centric solutions.
                     </p>
                     <p>
-                       Experienced in working with Agile/Scrum methodologies, CI/CD pipelines, version control (Git), and cloud platforms (AWS basics). Strong collaborator with cross-functional teams, with proven ability to analyze problems, optimize processes, and deliver high-quality solutions under tight deadlines.
+                       Experienced in working with Agile/Scrum methodologies, CI/CD pipelines, version control (Git), and cloud platforms (AWS basics). Strong collaborator with cross-functional teams, with proven ability to analyze problems, optimize processes and deliver high-quality solutions under tight deadlines.
                     </p>
                     <p>
                       Passionate about continuous learning, exploring new technologies, and contributing to innovative projects that drive business growth.
