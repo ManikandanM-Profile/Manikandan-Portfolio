@@ -57,7 +57,7 @@ const About = () => {
                   </div>
                   <div className="text-center">
                     <h3 className="text-xl font-semibold mb-2">Manikandan M</h3>
-                    <p className="text-muted-foreground mb-4">Java Full Stack Developer</p>
+                    <p className="text-muted-foreground mb-4">Java Developer</p>
                     <div className="flex flex-wrap gap-2 justify-center">
                       <Badge variant="secondary">Available for Work</Badge>
                       <Badge variant="outline">3+ Years Experience</Badge>
@@ -74,20 +74,19 @@ const About = () => {
                   <h2 className="text-2xl font-bold mb-6 text-primary">Professional Summary</h2>
                   <div className="space-y-4 text-muted-foreground leading-relaxed">
                     <p>
-                      I'm a passionate Java Full Stack Developer with over 5 years of experience 
-                      building scalable web applications and microservices. My expertise spans across 
-                      the entire development lifecycle, from system design to deployment and maintenance.
+                      I'm a passionate Java Developer with 3+ years of experience in designing, developing, and deploying scalable web applications and microservices.
+                      Proficient in Java frameworks such as Spring Boot, Struts, Hibernate, and REST API development,
+                      with a strong foundation in frontend technologies including JavaScript, HTML, CSS, and Bootstrap.
                     </p>
                     <p>
-                      I specialize in Java ecosystem technologies including Spring Boot, Hibernate, 
-                      and REST API development, combined with modern frontend frameworks like React 
-                      and Angular. I'm passionate about clean code, test-driven development, and 
-                      creating user-centric solutions.
+                       Skilled in end-to-end software development lifecycle (SDLC), from requirement gathering and system design to implementation, testing, and deployment.
+                       Adept at writing clean, maintainable, and test-driven code, with a focus on performance, security, and user-centric solutions.
                     </p>
                     <p>
-                      When I'm not coding, I enjoy contributing to open-source projects, learning 
-                      new technologies, and mentoring junior developers. I believe in continuous 
-                      learning and staying up-to-date with the latest industry trends and best practices.
+                       Experienced in working with Agile/Scrum methodologies, CI/CD pipelines, version control (Git), and cloud platforms (AWS basics). Strong collaborator with cross-functional teams, with proven ability to analyze problems, optimize processes, and deliver high-quality solutions under tight deadlines.
+                    </p>
+                    <p>
+                      Passionate about continuous learning, exploring new technologies, and contributing to innovative projects that drive business growth.
                     </p>
                   </div>
                 </CardContent>
