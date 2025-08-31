@@ -51,16 +51,16 @@ const About = () => {
               <Card className="project-card">
                 <CardContent className="p-6">
                   <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl mb-4 flex items-center justify-center">
-                    <div className="w-32 h-32 bg-muted rounded-full flex items-center justify-center">
-                      <span className="text-4xl font-bold text-primary">AJ</span>
+                     <div className="w-42 h-40 rounded-full overflow-hidden border-5 border-muted shadow-md">
+                      <img src="/ManikandanIMG.jpg" alt="ManikandanM" className="w-full h-full object-cover" />
                     </div>
                   </div>
                   <div className="text-center">
-                    <h3 className="text-xl font-semibold mb-2">Alex Johnson</h3>
+                    <h3 className="text-xl font-semibold mb-2">Manikandan M</h3>
                     <p className="text-muted-foreground mb-4">Java Full Stack Developer</p>
                     <div className="flex flex-wrap gap-2 justify-center">
                       <Badge variant="secondary">Available for Work</Badge>
-                      <Badge variant="outline">5+ Years Experience</Badge>
+                      <Badge variant="outline">3+ Years Experience</Badge>
                     </div>
                   </div>
                 </CardContent>
