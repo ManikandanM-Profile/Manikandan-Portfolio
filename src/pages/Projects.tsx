@@ -71,7 +71,7 @@ const Projects = () => {
                         </Badge>
                       ))}
                     </div>
-                    <div className="flex gap-3">
+                    {/* <div className="flex gap-3">
                       <Button asChild size="sm" className="cyber-border">
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
                           <Github className="mr-2 h-4 w-4" />
@@ -84,7 +84,7 @@ const Projects = () => {
                           Demo
                         </a>
                       </Button>
-                    </div>
+                    </div> */}
                   </CardContent>
                 </Card>
               ))}
