@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Integra Automation Management System - IAMS",
       description: "Developed end-to-end accounting process with a single dashboard for QBO, QBD and Xero. Streamlines client onboarding, data entry, transaction imports, and reconciliation with dynamic review. Supports sales, purchase invoices, journal entries, and check processing for seamless operations.",
       tech: ["Java", "Struts2", "Hibernate", "JavaScript", "MySQL", "AWS"],
-      image: "/ManikandanIMG.jpg",
+      image: "/imgs/AutomationIMG.jpg",
       github: "#",
       demo: "#",
       featured: true,
@@ -20,7 +20,7 @@ const Projects = () => {
       title: "Online Movie Ticket Booking System",
       description: "Enabled users to browse movies, show times and booktickets anytime through a userfriendly interface. Provided real-time seat selection during booking. Allowed admin management of movies, show times, theaters and pricing and Automated booking confirmations and reminders.",
       tech: ["Java", "Spring MVC", "Hibernate", "JavaScript", "MySQL"],
-      image: "bg-gradient-to-br from-green-500/20 to-blue-500/20",
+      image: "/imgs/MovieAppIMG.jpg",
       github: "#",
       demo: "#",
       featured: true,
@@ -51,11 +51,7 @@ const Projects = () => {
                 <Card key={project.id} className="project-card group">
                   {/* Project Image Header */}
                   <div className="h-48 w-full rounded-t-lg overflow-hidden">
-                    <img
-                      src="/ManikandanIMG.jpg"
-                      alt="ManikandanM"
-                      className="w-full h-full object-cover"
-                    />
+                    <img src={project.image} className="w-full h-full object-cover" />
                   </div>
 
                   <CardHeader>
