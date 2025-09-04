@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/manikandan-m-294a1b183",
+      url: "https://linkedin.com/in/manikandanmani-dev",
       color: "from-blue-600 to-blue-800",
     },
     {
