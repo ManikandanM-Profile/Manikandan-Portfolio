@@ -30,7 +30,7 @@ const Resume = () => {
   const handleDownload = () => {
     // In a real application, this would trigger a PDF download
     const link = document.createElement('a');
-    link.href = '/files/Manikandan.pdf';
+    link.href = '/Manikandan.pdf';
     link.download = 'Manikandan_M_Resume.pdf';
     link.click();
   };
